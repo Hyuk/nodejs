@@ -22,3 +22,10 @@ server.listen(port, hostname, () => {
 ```bash
 $ node app.js
 ```
+
+## upgrade node JS stable version
+```bash
+$ sudo npm cache clean -f
+$ sudo npm install -g n
+$ sudo n stable
+```
